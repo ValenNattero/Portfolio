@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Desarrollador</title>
+    <meta name="description" content="Portafolio personal mostrando mis proyectos y habilidades como desarrollador.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Dev<span class="accent">.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact" class="btn-primary">Contacto</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text fade-in-up">
+                    <span class="greeting">Hola, soy</span>
+                    <h1>Desarrollador <span class="text-gradient">Creativo</span></h1>
+                    <p>Transformo ideas en experiencias digitales modernas y funcionales. Especializado en desarrollo
+                        web responsive y diseño UI/UX.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-primary">Ver Proyectos <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn-secondary">Contáctame</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="mailto:email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-up delay-200">
+                    <div class="image-wrapper">
+                        <img src="assets/profile.png" alt="Foto de perfil">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-code"></i>
+                            <span>Clean Code</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-rocket"></i>
+                            <span>Performance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2>Sobre Mí</h2>
+                    <p>Conoce un poco más sobre quién soy y qué hago.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image fade-in-left">
+                        <div class="code-block">
+                            <pre><code>
+const developer = {
+  role: 'Full Stack Dev Jr',
+  education: 'Tecnicatura en Programación',
+  skills: [
+    'C#', 'Python', 'SQL',
+    'Java', 'JavaScript',
+    '.NET', 'HTML/CSS'
+  ],
+  traits: ['Proactive', 'Learner']
+};
+                            </code></pre>
+                        </div>
+                    </div>
+                    <div class="about-text fade-in-right">
+                        <h3>Desarrolladora Full Stack Jr.</h3>
+                        <p>Soy una profesional recientemente egresada de la <strong>Tecnicatura Universitaria en
+                                Programación</strong>, apasionada por la tecnología y con un fuerte enfoque en el
+                            aprendizaje continuo.</p>
+                        <p>Busco mi primer experiencia IT como Desarrolladora Jr, tanto Front End como Back End, con un
+                            sólido manejo de SQL, además de habilidades en Python y C#. Hoy mi objetivo es integrarme a
+                            un equipo donde pueda aplicar mis conocimientos técnicos, seguir creciendo como profesional
+                            IT y sumar valor con mi actitud proactiva y orientada a resultados.</p>
+
+                        <div class="skills-container">
+                            <h4>Habilidades Técnicas</h4>
+                            <div class="skills-tags">
+                                <span>C#</span>
+                                <span>C++</span>
+                                <span>Java</span>
+                                <span>Python</span>
+                                <span>PHP</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Bootstrap</span>
+                                <span>MySQL</span>
+                                <span>SQL Server</span>
+                                <span>.NET</span>
+                                <span>REST API</span>
+                                <span>PL/SQL</span>
+                                <span>VB</span>
+                                <span>Big Data</span>
+                                <span>Web Scraping</span>
+                                <span>Git</span>
+                                <span>PaqueteOffice</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2>Mis Proyectos</h2>
+                    <p>Una selección de mis trabajos recientes.</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project Card 1: Edusync -->
+                    <article class="project-card fade-in-up">
+                        <div class="project-image">
+                            <img src="IMG/Edusync.png" alt="Edusync Platform Preview"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Edusync</h3>
+                            <p>Plataforma académica integral para gestión escolar (estudiantes, calificaciones,
+                                asistencia, materiales) desarrollada como herramienta funcional para instituciones.</p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+                                <span>HTML5/CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/AgustinCitti/utnproject" target="_blank"><i
+                                        class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2: Análisis de Datos -->
+                    <article class="project-card fade-in-up delay-100">
+                        <div class="project-image">
+                            <img src="IMG/Analisis_de_datos.png" alt="Data Analysis Preview"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Análisis de Datos en Pandas</h3>
+                            <p>Análisis del mercado de libros en Amazon (1997-2023). Procesamiento de +220k registros
+                                para identificar tendencias de lectura y comportamiento de usuarios.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Data Analysis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ValenNattero/Analisis_datos" target="_blank"><i
+                                        class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3: One Piece Web -->
+                    <article class="project-card fade-in-up delay-200">
+                        <div class="project-image">
+                            <img src="IMG/onepiece.png" alt="One Piece Website Preview"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-info">
+                            <h3>One Piece - Página Web</h3>
+                            <p>Sitio web estático sobre el universo de One Piece. Estructura organizada y diseño
+                                responsive aplicando buenas prácticas de desarrollo web.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ValenNattero/SitioWebPracticaOnepiece" target="_blank"><i
+                                        class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-wrapper fade-in-up">
+                    <div class="contact-content">
+                        <h2>¿Listo para trabajar juntos?</h2>
+                        <p>Estoy disponible para proyectos freelance y oportunidades laborales. ¡Hablemos!</p>
+                        <a href="mailto:tuemail@ejemplo.com" class="btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Dev<span class="accent">.</span></div>
+            <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
