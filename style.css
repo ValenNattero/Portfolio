@@ -1,13 +1,13 @@
 /* Variables & Theme */
 :root {
-    --bg-color: #0f172a;
-    --bg-secondary: #1e293b;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --accent-color: #3b82f6;
-    --accent-glow: rgba(59, 130, 246, 0.5);
-    --gradient-1: #3b82f6;
-    --gradient-2: #8b5cf6;
+    --bg-color: #1A1216;
+    --bg-secondary: #2A1D24;
+    --text-primary: #F5F5DC;
+    --text-secondary: #D3D3BD;
+    --accent-color: #D4AF37;
+    --accent-glow: rgba(212, 175, 55, 0.5);
+    --gradient-1: #D4AF37;
+    --gradient-2: #C5A059;
     
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
