@@ -34,6 +34,7 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
 }
 
 a {
@@ -56,6 +57,13 @@ img {
     max-width: var(--container-width);
     margin: 0 auto;
     padding: 0 2rem;
+    width: 100%;
+   }
+
+    @media (max-width: 768px) {
+    .container {
+        padding: 0 1rem; 
+    }
 }
 
 .text-gradient {
@@ -577,7 +585,7 @@ footer {
 
 @media (max-width: 768px) {
     .nav-links {
-        display: none; /* Mobile menu logic to be added in JS if needed, for now simple hide */
+        display: none; 
         position: absolute;
         top: var(--header-height);
         left: 0;
